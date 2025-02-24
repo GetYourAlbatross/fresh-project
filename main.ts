@@ -12,4 +12,4 @@ import config from "./fresh.config.ts";
 
 await start(manifest, config);
 
-Deno.serve(() => new Response("Hello, world!"));
+
